@@ -1,0 +1,261 @@
+@font-face { font-family:"Futura MdCn BT"; src:url(../fonts/Futura%20Medium%20Condensed%20BT.ttf), url(../fonts/Futura%20Bk%20BT%20Book.ttf), url(../fonts/futura_medium_condensed_bt-webfont.eot), url(../fonts/futura_bk_bt_book-webfont.eot);}
+body { font-family:"Futura MdCn BT", arial, sans-serif; margin:0px; padding:0px; font-size:20px; }
+ul, li { display:inline-table; list-style:none; }
+a  { color:#666666; text-decoration:none; }
+p { color:#333;}
+header { width:auto; margin:0 auto; background:#900d26; padding:10px 0; }
+.img_header { margin:0 auto;}
+h1 { margin:0 auto; text-align:center;}
+h2 { text-align:center; font-size:50px; line-height:55px; color:#900d26; text-transform:uppercase; margin-bottom: 0px;}
+h3 {font-size:25px; text-transform:uppercase; color:#900d26; }
+h3 span.subtitulo { font-size:25px; text-transform:uppercase; color:#dabe5c; }
+img { border:none;}
+  
+/*NAV*/ 	
+nav { margin:0 auto; background:#eeeeee; height:43px; }		
+nav .menu { width:1036px; position: relative; left: 50%; margin-left: -518px; }	
+nav ul { padding:0px; margin:0px }
+nav li { border-right:1px solid #666; float:left }
+nav ul li.home a { padding:9px 15px; text-decoration:none; background:url(../images/home_icon.png) no-repeat; background-position:0 -27px ;float:left; text-indent:31px; }	
+nav ul li.home a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/home_icon.png) #900d26 no-repeat; background-position:0 8px; float:left; text-indent:31px; }
+nav ul li.localizacao a { padding:9px 15px; text-decoration:none; background:url(../images/localizacao_icon.png) no-repeat; height:24px; background-position:0 -27px ;float:left; text-indent:31px; }
+nav ul li.localizacao a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/localizacao_icon.png) #900d26 no-repeat; background-position:0 10px ;float:left; text-indent:31px;; }
+nav ul li.projeto a { padding:9px 15px; text-decoration:none; background:url(../images/projeto_icon.png) no-repeat; background-position:0 -28px ;float:left; text-indent:31px; }
+nav ul li.projeto a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/projeto_icon.png) #900d26 no-repeat; background-position:0 8px ;float:left; text-indent:31px; }
+nav ul li.lazer a { padding:9px 15px; text-decoration:none; background:url(../images/lazer_icon.png) no-repeat; background-position:0 -28px ;float:left; text-indent:31px; }
+nav ul li.lazer a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/lazer_icon.png) #900d26 no-repeat; background-position:0 8px ;float:left; text-indent:31px; }
+nav ul li.apartamento a { padding:9px 15px; text-decoration:none; background:url(../images/apartamento_icon.png) no-repeat; background-position:0 -27px ;float:left; text-indent:31px;; }
+nav ul li.apartamento a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/apartamento_icon.png) #900d26 no-repeat; background-position:0 10px ;float:left; text-indent:31px; }
+nav ul li.diferenciais a { padding:9px 15px; text-decoration:none; background:url(../images/diferenciais_icon.png) no-repeat; background-position:0 -28px ;float:left; text-indent:31px; }
+nav ul li.diferenciais a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/diferenciais_icon.png) #900d26 no-repeat; background-position:0 9px ;float:left; text-indent:31px; }
+nav ul li.realizacoes a { padding:9px 15px; text-decoration:none; background:url(../images/realizacoes.png) no-repeat; background-position:0 -27px ;float:left; text-indent:31px; }
+nav ul li.realizacoes a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/realizacoes.png) #900d26 no-repeat; background-position:0 9px ;float:left; text-indent:31px; }
+nav ul li.contato a { padding:9px 15px; text-decoration:none; background:url(../images/contato_icon.png) no-repeat; background-position:0 -27px ;float:left; text-indent:31px;}
+nav ul li.contato a:hover { padding:9px 15px; text-decoration:none; color:#FFF; background:url(../images/contato_icon.png) #900d26 no-repeat; background-position:0 9px ;float:left; text-indent:31px; }
+nav ul li.contato { border-right:0px}
+
+
+/*SECTION*/
+section.geral { width:auto; overflow-x: hidden;  margin:0 auto; }
+section.conteudo { position: relative; width:12000px; background:url(../images/linhas_fundo3.png) no-repeat  bottom ; float:left;  }
+
+/*HOME*/
+article.home { width:1600px; height:494px; float:left; z-index: 100; }
+img.faxada { float:left; margin-left:170px; margin-top:30px; border:solid 3px #dabe5c;}
+.titulo_h2 { width:613px; height: 280px; } 
+span.txt1 { font-size:40px; line-height:10px; margin-bottom: 0px;}
+aside { float:left; margin-top:5px;}
+img.familia { float:left;  margin-top:30px; }
+
+
+/*LOCALIZAÇÃO*/
+article.localizacao { width:1300px; height:494px; float:left; padding-left:180px; }
+aside#loca { float:left;  width:468px; }
+img.localizacao { border:solid 3px #dabe5c;}
+img.cptm { margin-left: 110px; margin-top: 15px;}
+img.seta { float:left; margin-top:40px;}
+p.saiba_mais a  { float:left; font-size:25px; padding:10px 50px; margin-top:15px; margin-left:15px; background:#900d26;  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;  }
+p.saiba_mais a:hover { background:#6f091d;}
+aside.id_mapa { float:left; width:416px; margin:0px; margin-left: 20px; }
+img.mapa { margin-left:120px}
+p.txt_mapa1 {font-size:20px; margin-left:87px; margin-top:5px; float:left}
+p.txt_mapa2 { font-size:15px; margin-left:50px; line-height:20px; text-align:center}
+.saiba_mais a { padding-left:65px; text-transform:uppercase; color:#FFF; }
+.popup_saibamais { background: url(../images/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; }
+.xxx { width: 850px; height: 480px; position: relative; left: 50%; margin-left: -425px; margin-top: 100px;}
+.popup_local { background: url(../images/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; }
+
+/*PROJETO*/
+article.projeto { width:1350px; height:494px; float:left; padding-left:180px; }
+aside.txt_projeto { float:left;}
+aside.col_proj2 { float:left; margin-left:670px; margin-top:-430px; border:solid 3px #dabe5c;}
+aside.col_proj1 { float:left; overflow-y: scroll; background:#FFF; margin-right:1000px; width:602px; height:310px; }
+aside #arq { float:left; margin:0px; padding:0 5px; width:575px; font-family:"Futura Bk BT"; font-size:14px; color:#666666; }
+p.cont_arq { float:left; margin:10px; font-family:"Futura MdCn BT"; font-size:15px; color:#333333; }
+p.text_arq { width:468px; float:right; text-align:justify;}
+.popup_projeto { background: url(../images/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; }
+.xxx_projeto { width: 500px; height: 630px; position: relative; left: 50%; margin-left: -250px; margin-top: 15px;}
+
+/*LAZER*/
+article.lazer { width:1350px; height:494px; float:left; padding-left:180px; }
+aside.txt_lazer { float:left;}
+/*SLIDE DERECK*/
+aside.slide_geral { width:960px; float:left; margin-right:1000px;}
+aside.seta_esq { width:40px; z-index: 1; height:378px; position: absolute; top: 85px; background: url(../images/px_slide.png); }
+aside.seta_diret { width:40px; z-index: 1; height:378px; position: absolute; top: 85px; margin-left:652px; background: url(../images/px_slide.png); }
+img.ali_seta { margin-top:170px;}
+nav#slide { width:690px; height:377px; float: left; overflow: hidden; }
+ul.lista_slide { position: relative; width:6910px; left:0px;}
+aside.txt_lazer2 { width:255px; font-size:18px;  height:250px; margin-top:-21px; margin-bottom: 21px; margin-left: 10px; float: left; }
+span.sub_lazer2 { font-family:"Futura Bk BT"; font-size:14px; color:#666666; margin-top:10px; float:left}
+/*SLIDE DERECK*/
+aside.txt_lazer3 { width:255px; color:#dabe5c; text-align:center; float:left;  margin-left:10px}
+aside.txt_lazer3 img { margin-left:10px}
+p.txt_mapa3 { float:left; margin:0px; margin-left:45px; font-size:15px; line-height:20px}
+.popup_lazer { background: url(../images/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 2;  }
+	
+/*SEU APARTAMENTO*/
+article.apartamento { width:1350px; height:494px; float:left; padding-left:180px; }
+span.number { font-size:35px;}
+aside.img_apartamento { height:329px; float:left; margin-right:450px; margin-top:-15px; border:solid 3px #dabe5c;}
+aside.mapa_ap { float:left; width:370px; margin-left:620px; margin-top:-480px; }
+aside.mapa_ap { text-align:left; font-family:"Futura Bk BT"; font-size:14px; color:#666666;}
+span.subTitulo_ap { font-family:"Futura MdCn BT"; font-size:18px; color:#000;}
+.popup_apartamento { background: url(../images/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0;  }
+
+/*DIFERENCIAIS*/
+article.diferenciais { width:1350px; height:494px; float:left; padding-left:180px;}
+aside.img_difer { float:left; margin-left:625px; /*margin-top:-183px;*/ margin-top: -345px; }
+aside.col_proj3 { float:left; overflow-y: scroll; background:#FFF; margin-right:1000px; width:620px; height:310px; }
+aside#comeco { float:left; width:600px; height:1200px; }
+aside#meio { float:left; width:600px; }
+aside.coluna_esquerda { float:left; width:295px; }
+aside.coluna_direita { float:right; width:295px; margin-right: 5px;  }
+aside#cont_difer { float:left; width:290px; }
+aside#cont_difer6 { float:left; width:290px; margin-bottom: 208px;}
+aside#cont_difer2 { float:left; width:620px; }
+span.subTit_difer { float:left; font-family:"Futura Bk BT"; font-size:15px; text-transform:uppercase; color:#900d26; margin-top:10px; margin-left:5px;}
+p.txt_difer { width:240px; float: right; }
+p.txt_difer { font-family:"Futura Bk BT"; font-size:12px;}
+.txt_box { text-align: center; margin-left:120px; }
+.img    { background-image: url(../images/icons_diferenciais.png); background-position: -6px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_tt { background-image: url(../images/icons_diferenciais.png); background-position: -46px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_sp { background-image: url(../images/icons_diferenciais.png); background-position: -90px -12px;  background-repeat: no-repeat; float: left; height: 42px; width: 42px; }		 	 
+.img_cd { background-image: url(../images/icons_diferenciais.png); background-position: -130px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_ap { background-image: url(../images/icons_diferenciais.png);background-position: -180px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_cz { background-image: url(../images/icons_diferenciais.png); background-position: -225px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_in { background-image: url(../images/icons_diferenciais.png); background-position: -270px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_mc { background-image: url(../images/icons_diferenciais.png); background-position: -312px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_ac { background-image: url(../images/icons_diferenciais.png); background-position: -395px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_vv { background-image: url(../images/icons_diferenciais.png); background-position: -355px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_02 { background-image: url(../images/icons_diferenciais.png); background-position: -400px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_01 { background-image: url(../images/icons_diferenciais.png); background-position: -135px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 	 
+.img_03 { background-image: url(../images/icons_diferenciais.png); background-position: -92px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_04 { background-image: url(../images/icons_diferenciais.png); background-position: -92px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_05 { background-image: url(../images/icons_diferenciais.png); background-position: -181px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_06 { background-image: url(../images/icons_diferenciais.png); background-position: -6px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_07 { background-image: url(../images/icons_diferenciais.png); background-position: -358px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 	
+.img_08 { background-image: url(../images/icons_diferenciais.png); background-position: -135px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_09 { background-image: url(../images/icons_diferenciais.png); background-position:  -48px -110px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 	
+.img_10 { background-image: url(../images/icons_diferenciais.png); background-position:  -92px -110px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_11 { background-image: url(../images/icons_diferenciais.png); background-position:  -6px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_12 { background-image: url(../images/icons_diferenciais.png); background-position:  -180px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_13 { background-image: url(../images/icons_diferenciais.png); background-position:  -225px -110px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_14 { background-image: url(../images/icons_diferenciais.png); background-position:  -315px -110px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_15 { background-image: url(../images/icons_diferenciais.png); background-position:  -46px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }  
+.img_16 { background-image: url(../images/icons_diferenciais.png); background-position:  -135px -60px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }  
+.img_17 { background-image: url(../images/icons_diferenciais.png); background-position:  -46px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_18 { background-image: url(../images/icons_diferenciais.png); background-position:  -92px -162px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }   
+.img_19 { background-image: url(../images/icons_diferenciais.png); background-position:  -93px -15px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_20 { background-image: url(../images/icons_diferenciais.png); background-position:  -272px -14px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }  
+.img_21 { background-image: url(../images/icons_diferenciais.png); background-position:  -272px -110px; background-repeat: no-repeat; float: left;  height: 42px; width: 42px; } 
+.img_22 { background-image: url(../images/icons_diferenciais.png); background-position:  -225px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_23 { background-image: url(../images/icons_diferenciais.png); background-position: -358px -15px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_24 { background-image: url(../images/icons_diferenciais.png); background-position: -315px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_25 { background-image: url(../images/icons_diferenciais.png); background-position: -357px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_26 { background-image: url(../images/icons_diferenciais.png); background-position: -6px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_27 { background-image: url(../images/icons_diferenciais.png); background-position: -225px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_28 { background-image: url(../images/icons_diferenciais.png); background-position: -225px -55px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_29 { background-image: url(../images/icons_diferenciais.png); background-position: -315px -55px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_30 { background-image: url(../images/icons_diferenciais.png); background-position: -4px -105px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; } 
+.img_31 { background-image: url(../images/icons_diferenciais.png); background-position: -135px -105px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_32 { background-image: url(../images/icons_diferenciais.png); background-position: -180px -105px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_33 { background-image: url(../images/icons_diferenciais.png); background-position: -270px -105px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_34 { background-image: url(../images/icons_diferenciais.png); background-position: -358px -105px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_35 { background-image: url(../images/icons_diferenciais.png); background-position: -8px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_36 { background-image: url(../images/icons_diferenciais.png); background-position: -49px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_37 { background-image: url(../images/icons_diferenciais.png); background-position: -401px -105px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }	 
+.img_38 { background-image: url(../images/icons_diferenciais.png); background-position: -136px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }	 
+.img_39 { background-image: url(../images/icons_diferenciais.png); background-position: -181px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }	 
+.img_40 { background-image: url(../images/icons_diferenciais.png); background-position: -272px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }	 
+.img_41 { background-image: url(../images/icons_diferenciais.png); background-position: -316px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_42 { background-image: url(../images/icons_diferenciais.png); background-position: -272px -160px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_43 { background-image: url(../images/icons_diferenciais.png); background-position: -136px -12px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_44 { background-image: url(../images/icons_diferenciais.png); background-position: -6px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_45 { background-image: url(../images/icons_diferenciais.png); background-position: -47px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_66 { background-image: url(../images/icons_diferenciais.png); background-position: -273px -210px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+.img_67 { background-image: url(../images/icons_diferenciais.png); background-position: -323px -208px; background-repeat: no-repeat; float: left; height: 42px; width: 42px; }
+
+/*REALIZAÇÔES*/
+article.realizacoes { width:1240px; height:494px; float:left; padding-left:180px; }
+.txt_projetoreali { width: 400px; float:left; }
+aside#box_reali { width:1000px; height:315px; margin:0px; float:left; }
+aside#historia { width:1000px; overflow-y: scroll; height:315px; background:#FFF; }
+aside.col_1 { width:470px; height:192px; float:left; padding-left:4px; padding-right:4px; }
+aside.col_2 { width:470px; height:192px; float:right; padding-left:4px; padding-right:4px; }
+aside.col_3 { width:363px; float:left; padding-left:4px; padding-right:4px; margin-top:-10px;}
+aside.col_4 { width:217px; float:left; margin:10px; padding-top:0px;}
+.txt_col { text-align:justify; font-family:"Futura Bk BT"; font-size:14px; color:#666666;}
+aside#contruire { width:700px; margin-left:140px; text-align:center; color:#666; font-family:"Futura Bk BT"; font-size:14px; color:#666666;}
+#edif { width:700px; }
+hr { margin-top:40px;}
+p.end { font-size:11px; float:left}
+p.img_edif { width:150px; float:left; margin-left:25px; text-align:center; text-transform:uppercase;}
+aside#patriani { width:980px; font-size: 14px; font-family:"Futura Bk BT"; color: #666666;  }
+#edif_col1 { width: 475px; float: left; margin-right: 30px; padding-top: 10px;}
+#edif_col2 { width: 475px;  float: left; padding-top: 10px; }
+p.img_edif2 { width:150px; height: 211px; float: left; text-transform:uppercase; text-align: center; }
+p.txtedif2 { width:300px; height: 211px; float: left; padding-left: 5px; }
+
+
+
+
+
+
+/*CONTATO*/			
+article.contato { width:1200px; height:494px; float:left; padding-left:180px;}
+aside#form { width:600px; height:350px; float:left; margin-right:400px;}
+form { font-family:"Futura Bk BT"; font-size:14px;  }
+form.esquerda { float:left; margin-left:38px}
+form.direita { float:left; margin-left:18px}
+input, select, textarea { font-family:"Futura Bk BT"; font-size:14px; color:#666; border-radius:7px; border:1px solid #999; padding:15px 7px; width:211px;  margin-bottom:7px}
+input.statusNome { width:442px;}
+input.statusEmail { border-radius:10px  0 0  10px;}
+input.statusTelefone {border-radius:0  10px 10px  0;}
+textarea { width:442px; height:125px}
+button { width:155px; height:46px; border-radius:10px; color:#FFF; font-family:"Futura MdCn BT"; font-size:22px; cursor:pointer; background:#900d26;}
+button:hover { background:#6f091d;}
+button.enviar { border-bottom:1px solid #900d26; border-right:1px solid #900d26; border-left:1px solid #900d26; border-top:1px solid #900d26; }
+aside#at_online { float:left; margin-left:630px; margin-top:-380px; text-align:center;}
+
+/*FOOTER*/
+section.footer { width:1036px; height:50px; margin:0 auto; padding:5px; }
+#rodape { width:1036px; height:70px; font-size:12px; color:#666; }
+img.ico { padding-top: 2px; }
+aside#in {  text-align:center;  margin-left:80px; }
+aside#int {  text-align:center;  margin-left:60px; }
+aside#fin {  text-align:center; margin-left:60px; }
+aside#adm {  text-align:center;  margin-left:60px; margin-top: -10px; }
+aside#spicy { margin-left:50px; margin-top:25px; }
+span.spicy { font-size:12px; color:#355320; }
+
+/* Menu ativo */
+.active-home{ color:#FFF; background:url(../images/home_icon.png) #900d26 no-repeat !important; background-position:0 8px !important; }
+.active-localizacao{ color:#FFF; background:url(../images/localizacao_icon.png) #900d26 no-repeat !important; background-position:0 10px !important; }
+.active-projeto{ color:#FFF; background:url(../images/projeto_icon.png) #900d26 no-repeat !important; background-position:0 8px !important; }
+.active-lazer{ color:#FFF; background:url(../images/lazer_icon.png) #900d26 no-repeat !important; background-position:0 8px !important; }
+.active-apartamento{ color:#FFF; background:url(../images/apartamento_icon.png) #900d26 no-repeat !important; background-position:0 10px !important; }
+.active-diferenciais{ color:#FFF; background:url(../images/diferenciais_icon.png) #900d26 no-repeat !important; background-position:0 9px !important; }
+.active-realizacoes{ color:#FFF; background:url(../images/realizacoes.png) #900d26 no-repeat !important; background-position:0 9px !important; }
+.active-contato{ color:#FFF; background:url(../images/contato_icon.png) #900d26 no-repeat !important; background-position:0 9px !important; }
+
+/*popups sites*/
+.link_externo{ float: left; height: 267px; left: 105px; margin-left: -121px; position: relative; width: 372px; }
+.popup_mob{ border: 8px solid #900d26; height: 267px; left: 50%; margin-left: -186px; margin-top: -39px; position: absolute; top: 50%; width: 372px; border-radius: 4px; }
+.closed{ background: url("../images/ico_x.png") no-repeat scroll 0 0 transparent; cursor: pointer; display: block; float: left; height: 15px; left: 348px; position: relative; top: 5px; width: 16px; z-index: 9999; }
+
+
+/* hack ie10 */
+.ie10 nav ul li.home a { padding-top:14px;  !important;}
+.ie10 nav ul li.localizacao a { padding-top:11px;  !important;}
+.ie10 nav ul li.localizacao a:HOVER { padding-top:10px;  !important;}
+.ie10 nav ul li.projeto a { padding-top:14px;  !important;}
+.ie10 nav ul li.projeto a:HOVER { padding-top:15px;  !important;}
+.ie10 nav ul li.lazer a { padding-top:14px;  !important;}
+.ie10 nav ul li.apartamento a { padding-top:14px;  !important;}
+.ie10 nav ul li.apartamento a:HOVER { padding-top:14px;  !important;}
+.ie10 nav ul li.diferenciais a { padding-top:14px;  !important;}
+.ie10 nav ul li.realizacoes a { padding-top:14px;  !important;}
+.ie10 nav ul li.contato a { padding-top:14px;  !important;}
+.ie10 nav ul li.apartamento{border-right:0px}
+.ie10 nav ul li.diferenciais a { border-left: 1px solid #666 !important;}
